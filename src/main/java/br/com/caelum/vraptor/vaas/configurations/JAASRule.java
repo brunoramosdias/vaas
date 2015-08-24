@@ -13,6 +13,7 @@ public class JAASRule implements Rule {
 	private String[] roles;
 
 	private JAASRule(String...roles) {
+		this.roles = roles;
 	}
 	
 	public static JAASRule withRoles(String...roles) {
